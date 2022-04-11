@@ -1,0 +1,13 @@
+/Users/galuziel/SkeletonIoT/SimulatedDevice/SimulatedDevice/bin/Debug/netcoreapp2.2/SimulatedDevice.deps.json
+/Users/galuziel/SkeletonIoT/SimulatedDevice/SimulatedDevice/bin/Debug/netcoreapp2.2/SimulatedDevice.runtimeconfig.json
+/Users/galuziel/SkeletonIoT/SimulatedDevice/SimulatedDevice/bin/Debug/netcoreapp2.2/SimulatedDevice.runtimeconfig.dev.json
+/Users/galuziel/SkeletonIoT/SimulatedDevice/SimulatedDevice/bin/Debug/netcoreapp2.2/SimulatedDevice.dll
+/Users/galuziel/SkeletonIoT/SimulatedDevice/SimulatedDevice/bin/Debug/netcoreapp2.2/SimulatedDevice.pdb
+/Users/galuziel/SkeletonIoT/SimulatedDevice/SimulatedDevice/obj/Debug/netcoreapp2.2/SimulatedDevice.csproj.AssemblyReference.cache
+/Users/galuziel/SkeletonIoT/SimulatedDevice/SimulatedDevice/obj/Debug/netcoreapp2.2/SimulatedDevice.GeneratedMSBuildEditorConfig.editorconfig
+/Users/galuziel/SkeletonIoT/SimulatedDevice/SimulatedDevice/obj/Debug/netcoreapp2.2/SimulatedDevice.AssemblyInfoInputs.cache
+/Users/galuziel/SkeletonIoT/SimulatedDevice/SimulatedDevice/obj/Debug/netcoreapp2.2/SimulatedDevice.AssemblyInfo.cs
+/Users/galuziel/SkeletonIoT/SimulatedDevice/SimulatedDevice/obj/Debug/netcoreapp2.2/SimulatedDevice.csproj.CoreCompileInputs.cache
+/Users/galuziel/SkeletonIoT/SimulatedDevice/SimulatedDevice/obj/Debug/netcoreapp2.2/SimulatedDevice.dll
+/Users/galuziel/SkeletonIoT/SimulatedDevice/SimulatedDevice/obj/Debug/netcoreapp2.2/SimulatedDevice.pdb
+/Users/galuziel/SkeletonIoT/SimulatedDevice/SimulatedDevice/obj/Debug/netcoreapp2.2/SimulatedDevice.genruntimeconfig.cache
