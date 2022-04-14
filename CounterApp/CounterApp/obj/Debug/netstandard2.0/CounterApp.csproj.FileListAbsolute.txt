@@ -1,0 +1,13 @@
+C:\Users\eladr\Desktop\iot project\SkeletonProjectIoT\SkeletonIoT\CounterApp\CounterApp\bin\Debug\netstandard2.0\CounterApp.deps.json
+C:\Users\eladr\Desktop\iot project\SkeletonProjectIoT\SkeletonIoT\CounterApp\CounterApp\bin\Debug\netstandard2.0\CounterApp.dll
+C:\Users\eladr\Desktop\iot project\SkeletonProjectIoT\SkeletonIoT\CounterApp\CounterApp\bin\Debug\netstandard2.0\CounterApp.pdb
+C:\Users\eladr\Desktop\iot project\SkeletonProjectIoT\SkeletonIoT\CounterApp\CounterApp\obj\Debug\netstandard2.0\CounterApp.csproj.AssemblyReference.cache
+C:\Users\eladr\Desktop\iot project\SkeletonProjectIoT\SkeletonIoT\CounterApp\CounterApp\obj\Debug\netstandard2.0\CounterApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\eladr\Desktop\iot project\SkeletonProjectIoT\SkeletonIoT\CounterApp\CounterApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\eladr\Desktop\iot project\SkeletonProjectIoT\SkeletonIoT\CounterApp\CounterApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\eladr\Desktop\iot project\SkeletonProjectIoT\SkeletonIoT\CounterApp\CounterApp\obj\Debug\netstandard2.0\CounterApp.AssemblyInfoInputs.cache
+C:\Users\eladr\Desktop\iot project\SkeletonProjectIoT\SkeletonIoT\CounterApp\CounterApp\obj\Debug\netstandard2.0\CounterApp.AssemblyInfo.cs
+C:\Users\eladr\Desktop\iot project\SkeletonProjectIoT\SkeletonIoT\CounterApp\CounterApp\obj\Debug\netstandard2.0\CounterApp.csproj.CoreCompileInputs.cache
+C:\Users\eladr\Desktop\iot project\SkeletonProjectIoT\SkeletonIoT\CounterApp\CounterApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\eladr\Desktop\iot project\SkeletonProjectIoT\SkeletonIoT\CounterApp\CounterApp\obj\Debug\netstandard2.0\CounterApp.dll
+C:\Users\eladr\Desktop\iot project\SkeletonProjectIoT\SkeletonIoT\CounterApp\CounterApp\obj\Debug\netstandard2.0\CounterApp.pdb

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "TO6iJ+mgymq6NBLK8FEd1SW5sBVNQpbYSR6AghTfuzSy2yJzlaDkoKIKfCBG0xKsEBQSuXMczQu4OL7nTJ6ysw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\eladr\\Desktop\\iot project\\SkeletonProjectIoT\\SkeletonIoT\\CounterApp\\CounterApp\\CounterApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\eladr\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\eladr\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\eladr\\.nuget\\packages\\xamarin.forms\\4.5.0.356\\xamarin.forms.4.5.0.356.nupkg.sha512"
+  ],
+  "logs": []
+}

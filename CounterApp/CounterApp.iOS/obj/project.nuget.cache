@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "tP62JW4E/aJJiEdq8/gYRJrjb/hVjapxgRfrrZ6Ibp9wZSoA2gzPluBA7gPaeHaUSwSJ7A5tJlDGKz2qF2hk+w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\eladr\\Desktop\\iot project\\SkeletonProjectIoT\\SkeletonIoT\\CounterApp\\CounterApp.iOS\\CounterApp.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\eladr\\.nuget\\packages\\xamarin.forms\\4.5.0.356\\xamarin.forms.4.5.0.356.nupkg.sha512"
+  ],
+  "logs": []
+}
