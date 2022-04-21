@@ -1,0 +1,9 @@
+#+TITLE: Log
+
+* Arduino setup
+- Add http://arduino.esp8266.com/stable/package_esp8266com_index.json to
+  File>Preferences>Additional Board Manager URLs
+- Download esp8266 version 3.0.2 from the Boards Manager
+- Download libraries from Library Manager:
+  - Azure SDK for C
+  - PubSubClient
