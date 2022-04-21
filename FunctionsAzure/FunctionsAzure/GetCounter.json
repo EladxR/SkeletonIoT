@@ -1,0 +1,21 @@
+{
+  "bindings": [
+    {
+      "queueName": "myqueue-items",
+      "connection": "AzureWebJobsStorage",
+      "name": "myQueueItem",
+      "type": "queueTrigger",
+      "direction": "in"
+    },
+    {
+      "name": "eyg",
+      "type": "table",
+      "tableName": "eyg",
+      "partitionKey": "Counter",
+      "rowKey": "1",
+      "connection": "AzureWebJobsStorage",
+      "direction": "in"
+    }
+  ],
+  "disabled": false
+}

@@ -1,46 +1,46 @@
 using System;
-using System.IO;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
+using Microsoft.Azure.EventHubs;
 using Microsoft.Azure.WebJobs;
-using Microsoft.Azure.WebJobs.Extensions.Http;
-using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
-using Newtonsoft.Json;
 
-namespace azureFunctions
+namespace FunctionsAzure
 {
-    public static class GetCounter
+    public class Function1
     {
-        public class SkeletonTable
+       // [FunctionName("Function1")]
+        public async Task Run([EventHubTrigger("skeletonevenhub", Connection = "EventHubConnectionAppSetting")] EventData[] events, ILogger log)
         {
-            public string PartitionKey { get; set; }
-            public string RowKey { get; set; }
-            public int Value { get; set; }
+            var exceptions = new List<Exception>();
+
+            foreach (EventData eventData in events)
+            {
+                try
+                {
+                    string messageBody = Encoding.UTF8.GetString(eventData.Body.Array, eventData.Body.Offset, eventData.Body.Count);
+
+                    // Replace these two lines with your processing logic.
+                    log.LogInformation($"C# Event Hub trigger function processed a message: {messageBody}");
+                    await Task.Yield();
+                }
+                catch (Exception e)
+                {
+                    // We need to keep processing the rest of the batch - capture this exception and continue.
+                    // Also, consider capturing details of the message that failed processing so it can be processed again later.
+                    exceptions.Add(e);
+                }
+            }
+
+            // Once processing of the batch is complete, if any messages in the batch failed processing throw an exception so that there is a record of the failure.
+
+            if (exceptions.Count > 1)
+                throw new AggregateException(exceptions);
+
+            if (exceptions.Count == 1)
+                throw exceptions.Single();
         }
-
-
-        [FunctionName("GetCounter")]
-        public static async Task<IActionResult> Run(
-            [HttpTrigger(AuthorizationLevel.Function, "get", "post", Route = null)] HttpRequest req,
-          //  [Table("SkeletonTable", "Counter", "1",Connection = "DefaultEndpointsProtocol=https;AccountName=eyg;AccountKey=BouRAn3sqA5Lv/93VJGyVPUFoPOz70gL5Z3jGQOlHS6rEsPgWtXXUZvXFMPoMEc8zTPt1YXJbGfT+AStmNfTjQ==;EndpointSuffix=core.windows.net")] SkeletonTable Counter,
-            ILogger log)
-        {
-            log.LogInformation("C# HTTP trigger function processed a request.");
-
-
-           // string responseMessage = Counter.Value.ToString();
-
-
-            return new OkObjectResult("eyg");
-        }
-        /* [FunctionName("TableInput")]
-         public static int TableInput(
-         [QueueTrigger("table-items")] string input,
-         [Table("SkeletonTable", "Counter", "1")] SkeletonTable Counter,
-         ILogger log)
-         {
-             return Counter.Value;
-         }*/
     }
 }

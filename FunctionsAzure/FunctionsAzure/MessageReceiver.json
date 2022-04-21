@@ -1,0 +1,7 @@
+{
+  "type": "eventHubTrigger",
+  "name": "myEventHubMessage",
+  "direction": "in",
+  "eventHubName": "skeletoneventhub",
+  "connection": "EventHubConnectionAppSetting"
+}

@@ -1,11 +1,37 @@
 {
-    "version": "2.0",
-    "logging": {
-        "applicationInsights": {
-            "samplingSettings": {
-                "isEnabled": true,
-                "excludedTypes": "Request"
-            }
-        }
+  "version": "2.0",
+  "logging": {
+    "applicationInsights": {
+      "samplingSettings": {
+        "isEnabled": true,
+        "excludedTypes": "Request"
+      }
     }
+  },
+  /*"extensionBundle": {
+    "id": "Microsoft.Azure.Functions.ExtensionBundle",
+    "version": "[2.8.4, 3.0.0)"
+  },*/
+  "extensions": {
+    "eventHubs": {
+      "maxEventBatchSize": 10,
+      "batchCheckpointFrequency": 5,
+      "prefetchCount": 300,
+      "transportType": "amqpWebSockets",
+      "webProxy": "https://proxyserver:8080",
+      "customEndpointAddress": "Endpoint=sb://iotskeletoneventhub.servicebus.windows.net/;SharedAccessKeyName=iothubroutes_SkeletonHub;SharedAccessKey=mZqQcr+KNpbUvPFG6snKxwJy+f5qGGb7lHrcCGXTWIc=;EntityPath=skeletoneventhub",
+      "initialOffsetOptions": {
+        "type": "fromStart",
+        "enqueuedTimeUtc": ""
+      },
+      "clientRetryOptions": {
+        "mode": "exponential",
+        "tryTimeout": "00:01:00",
+        "delay": "00:00:00.80",
+        "maxDelay": "00:01:00",
+        "maxRetries": 3
+      }
+    }
+  }
+
 }
