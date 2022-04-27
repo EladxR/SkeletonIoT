@@ -1,0 +1,233 @@
+﻿++Solution 'CounterApp' ‎(4 of 4 projects)
+i:{00000000-0000-0000-0000-000000000000}:CounterApp.sln
+++CounterApp.iOS
+i:{00000000-0000-0000-0000-000000000000}:CounterApp.iOS
+++Properties
+i:{4a79203c-7b4b-4859-b710-b4b29c918371}:c:\users\eladr\desktop\iot project\skeletonprojectiot\skeletoniot\counterapp\counterapp.ios\properties\
+i:{219e4bef-e64e-49cc-bc6e-81c283da3889}:c:\users\eladr\desktop\iot project\skeletonprojectiot\skeletoniot\counterapp\counterapp.uwp\properties\
+i:{ffebb543-cd38-44c9-8d04-cac63b59f715}:c:\users\eladr\desktop\iot project\skeletonprojectiot\skeletoniot\counterapp\counterapp.android\properties\
+++References
+i:{4a79203c-7b4b-4859-b710-b4b29c918371}:
+i:{219e4bef-e64e-49cc-bc6e-81c283da3889}:
+i:{ffebb543-cd38-44c9-8d04-cac63b59f715}:
+++Asset Catalogs
+i:{4a79203c-7b4b-4859-b710-b4b29c918371}:
+++Native References
+i:{4a79203c-7b4b-4859-b710-b4b29c918371}:
+++Resources
+i:{4a79203c-7b4b-4859-b710-b4b29c918371}:c:\users\eladr\desktop\iot project\skeletonprojectiot\skeletoniot\counterapp\counterapp.ios\resources\
+i:{ffebb543-cd38-44c9-8d04-cac63b59f715}:c:\users\eladr\desktop\iot project\skeletonprojectiot\skeletoniot\counterapp\counterapp.android\resources\
+++AppDelegate.cs
+i:{4a79203c-7b4b-4859-b710-b4b29c918371}:c:\users\eladr\desktop\iot project\skeletonprojectiot\skeletoniot\counterapp\counterapp.ios\appdelegate.cs
+++Entitlements.plist
+i:{4a79203c-7b4b-4859-b710-b4b29c918371}:c:\users\eladr\desktop\iot project\skeletonprojectiot\skeletoniot\counterapp\counterapp.ios\entitlements.plist
+++Info.plist
+i:{4a79203c-7b4b-4859-b710-b4b29c918371}:c:\users\eladr\desktop\iot project\skeletonprojectiot\skeletoniot\counterapp\counterapp.ios\info.plist
+++Main.cs
+i:{4a79203c-7b4b-4859-b710-b4b29c918371}:c:\users\eladr\desktop\iot project\skeletonprojectiot\skeletoniot\counterapp\counterapp.ios\main.cs
+++AssemblyInfo.cs
+i:{4a79203c-7b4b-4859-b710-b4b29c918371}:c:\users\eladr\desktop\iot project\skeletonprojectiot\skeletoniot\counterapp\counterapp.ios\properties\assemblyinfo.cs
+i:{219e4bef-e64e-49cc-bc6e-81c283da3889}:c:\users\eladr\desktop\iot project\skeletonprojectiot\skeletoniot\counterapp\counterapp.uwp\properties\assemblyinfo.cs
+i:{ffebb543-cd38-44c9-8d04-cac63b59f715}:c:\users\eladr\desktop\iot project\skeletonprojectiot\skeletoniot\counterapp\counterapp.android\properties\assemblyinfo.cs
+++CounterApp
+i:{4a79203c-7b4b-4859-b710-b4b29c918371}:
+i:{219e4bef-e64e-49cc-bc6e-81c283da3889}:
+i:{ffebb543-cd38-44c9-8d04-cac63b59f715}:
+i:{00000000-0000-0000-0000-000000000000}:CounterApp
+++System
+i:{4a79203c-7b4b-4859-b710-b4b29c918371}:
+i:{ffebb543-cd38-44c9-8d04-cac63b59f715}:
+++System.Core
+i:{4a79203c-7b4b-4859-b710-b4b29c918371}:
+i:{ffebb543-cd38-44c9-8d04-cac63b59f715}:
+++System.Xml
+i:{4a79203c-7b4b-4859-b710-b4b29c918371}:
+i:{ffebb543-cd38-44c9-8d04-cac63b59f715}:
+++Xamarin.Forms
+i:{4a79203c-7b4b-4859-b710-b4b29c918371}:
+i:{219e4bef-e64e-49cc-bc6e-81c283da3889}:
+i:{ffebb543-cd38-44c9-8d04-cac63b59f715}:
+++Xamarin.iOS
+i:{4a79203c-7b4b-4859-b710-b4b29c918371}:
+++Assets
+i:{4a79203c-7b4b-4859-b710-b4b29c918371}:
+i:{219e4bef-e64e-49cc-bc6e-81c283da3889}:c:\users\eladr\desktop\iot project\skeletonprojectiot\skeletoniot\counterapp\counterapp.uwp\assets\
+i:{ffebb543-cd38-44c9-8d04-cac63b59f715}:c:\users\eladr\desktop\iot project\skeletonprojectiot\skeletoniot\counterapp\counterapp.android\assets\
+++LaunchScreen.storyboard
+i:{4a79203c-7b4b-4859-b710-b4b29c918371}:c:\users\eladr\desktop\iot project\skeletonprojectiot\skeletoniot\counterapp\counterapp.ios\resources\launchscreen.storyboard
+++CounterApp.UWP ‎(Universal Windows)
+i:{00000000-0000-0000-0000-000000000000}:CounterApp.UWP
+++App.xaml
+i:{219e4bef-e64e-49cc-bc6e-81c283da3889}:c:\users\eladr\desktop\iot project\skeletonprojectiot\skeletoniot\counterapp\counterapp.uwp\app.xaml
+i:{d64a5828-4e1a-419b-957b-9e97c78f5030}:c:\users\eladr\desktop\iot project\skeletonprojectiot\skeletoniot\counterapp\counterapp\app.xaml
+++MainPage.xaml
+i:{219e4bef-e64e-49cc-bc6e-81c283da3889}:c:\users\eladr\desktop\iot project\skeletonprojectiot\skeletoniot\counterapp\counterapp.uwp\mainpage.xaml
+i:{d64a5828-4e1a-419b-957b-9e97c78f5030}:c:\users\eladr\desktop\iot project\skeletonprojectiot\skeletoniot\counterapp\counterapp\mainpage.xaml
+++Package.appxmanifest
+i:{219e4bef-e64e-49cc-bc6e-81c283da3889}:c:\users\eladr\desktop\iot project\skeletonprojectiot\skeletoniot\counterapp\counterapp.uwp\package.appxmanifest
+++Default.rd.xml
+i:{219e4bef-e64e-49cc-bc6e-81c283da3889}:c:\users\eladr\desktop\iot project\skeletonprojectiot\skeletoniot\counterapp\counterapp.uwp\properties\default.rd.xml
+++Microsoft.NETCore.UniversalWindowsPlatform
+i:{219e4bef-e64e-49cc-bc6e-81c283da3889}:
+++Microsoft.UI.Xaml.Markup
+i:{219e4bef-e64e-49cc-bc6e-81c283da3889}:
+++Microsoft.VCLibs
+i:{219e4bef-e64e-49cc-bc6e-81c283da3889}:
+++Universal Windows
+i:{219e4bef-e64e-49cc-bc6e-81c283da3889}:
+++LargeTile.scale-100.png
+i:{219e4bef-e64e-49cc-bc6e-81c283da3889}:c:\users\eladr\desktop\iot project\skeletonprojectiot\skeletoniot\counterapp\counterapp.uwp\assets\largetile.scale-100.png
+++LargeTile.scale-200.png
+i:{219e4bef-e64e-49cc-bc6e-81c283da3889}:c:\users\eladr\desktop\iot project\skeletonprojectiot\skeletoniot\counterapp\counterapp.uwp\assets\largetile.scale-200.png
+++LargeTile.scale-400.png
+i:{219e4bef-e64e-49cc-bc6e-81c283da3889}:c:\users\eladr\desktop\iot project\skeletonprojectiot\skeletoniot\counterapp\counterapp.uwp\assets\largetile.scale-400.png
+++SmallTile.scale-100.png
+i:{219e4bef-e64e-49cc-bc6e-81c283da3889}:c:\users\eladr\desktop\iot project\skeletonprojectiot\skeletoniot\counterapp\counterapp.uwp\assets\smalltile.scale-100.png
+++SmallTile.scale-200.png
+i:{219e4bef-e64e-49cc-bc6e-81c283da3889}:c:\users\eladr\desktop\iot project\skeletonprojectiot\skeletoniot\counterapp\counterapp.uwp\assets\smalltile.scale-200.png
+++SmallTile.scale-400.png
+i:{219e4bef-e64e-49cc-bc6e-81c283da3889}:c:\users\eladr\desktop\iot project\skeletonprojectiot\skeletoniot\counterapp\counterapp.uwp\assets\smalltile.scale-400.png
+++SplashScreen.scale-100.png
+i:{219e4bef-e64e-49cc-bc6e-81c283da3889}:c:\users\eladr\desktop\iot project\skeletonprojectiot\skeletoniot\counterapp\counterapp.uwp\assets\splashscreen.scale-100.png
+++SplashScreen.scale-200.png
+i:{219e4bef-e64e-49cc-bc6e-81c283da3889}:c:\users\eladr\desktop\iot project\skeletonprojectiot\skeletoniot\counterapp\counterapp.uwp\assets\splashscreen.scale-200.png
+++SplashScreen.scale-400.png
+i:{219e4bef-e64e-49cc-bc6e-81c283da3889}:c:\users\eladr\desktop\iot project\skeletonprojectiot\skeletoniot\counterapp\counterapp.uwp\assets\splashscreen.scale-400.png
+++Square150x150Logo.scale-100.png
+i:{219e4bef-e64e-49cc-bc6e-81c283da3889}:c:\users\eladr\desktop\iot project\skeletonprojectiot\skeletoniot\counterapp\counterapp.uwp\assets\square150x150logo.scale-100.png
+++Square150x150Logo.scale-200.png
+i:{219e4bef-e64e-49cc-bc6e-81c283da3889}:c:\users\eladr\desktop\iot project\skeletonprojectiot\skeletoniot\counterapp\counterapp.uwp\assets\square150x150logo.scale-200.png
+++Square150x150Logo.scale-400.png
+i:{219e4bef-e64e-49cc-bc6e-81c283da3889}:c:\users\eladr\desktop\iot project\skeletonprojectiot\skeletoniot\counterapp\counterapp.uwp\assets\square150x150logo.scale-400.png
+++Square44x44Logo.altform-unplated_targetsize-16.png
+i:{219e4bef-e64e-49cc-bc6e-81c283da3889}:c:\users\eladr\desktop\iot project\skeletonprojectiot\skeletoniot\counterapp\counterapp.uwp\assets\square44x44logo.altform-unplated_targetsize-16.png
+++Square44x44Logo.altform-unplated_targetsize-256.png
+i:{219e4bef-e64e-49cc-bc6e-81c283da3889}:c:\users\eladr\desktop\iot project\skeletonprojectiot\skeletoniot\counterapp\counterapp.uwp\assets\square44x44logo.altform-unplated_targetsize-256.png
+++Square44x44Logo.altform-unplated_targetsize-48.png
+i:{219e4bef-e64e-49cc-bc6e-81c283da3889}:c:\users\eladr\desktop\iot project\skeletonprojectiot\skeletoniot\counterapp\counterapp.uwp\assets\square44x44logo.altform-unplated_targetsize-48.png
+++Square44x44Logo.scale-100.png
+i:{219e4bef-e64e-49cc-bc6e-81c283da3889}:c:\users\eladr\desktop\iot project\skeletonprojectiot\skeletoniot\counterapp\counterapp.uwp\assets\square44x44logo.scale-100.png
+++Square44x44Logo.scale-200.png
+i:{219e4bef-e64e-49cc-bc6e-81c283da3889}:c:\users\eladr\desktop\iot project\skeletonprojectiot\skeletoniot\counterapp\counterapp.uwp\assets\square44x44logo.scale-200.png
+++Square44x44Logo.scale-400.png
+i:{219e4bef-e64e-49cc-bc6e-81c283da3889}:c:\users\eladr\desktop\iot project\skeletonprojectiot\skeletoniot\counterapp\counterapp.uwp\assets\square44x44logo.scale-400.png
+++Square44x44Logo.targetsize-16.png
+i:{219e4bef-e64e-49cc-bc6e-81c283da3889}:c:\users\eladr\desktop\iot project\skeletonprojectiot\skeletoniot\counterapp\counterapp.uwp\assets\square44x44logo.targetsize-16.png
+++Square44x44Logo.targetsize-256.png
+i:{219e4bef-e64e-49cc-bc6e-81c283da3889}:c:\users\eladr\desktop\iot project\skeletonprojectiot\skeletoniot\counterapp\counterapp.uwp\assets\square44x44logo.targetsize-256.png
+++Square44x44Logo.targetsize-48.png
+i:{219e4bef-e64e-49cc-bc6e-81c283da3889}:c:\users\eladr\desktop\iot project\skeletonprojectiot\skeletoniot\counterapp\counterapp.uwp\assets\square44x44logo.targetsize-48.png
+++StoreLogo.scale-100.png
+i:{219e4bef-e64e-49cc-bc6e-81c283da3889}:c:\users\eladr\desktop\iot project\skeletonprojectiot\skeletoniot\counterapp\counterapp.uwp\assets\storelogo.scale-100.png
+++StoreLogo.scale-200.png
+i:{219e4bef-e64e-49cc-bc6e-81c283da3889}:c:\users\eladr\desktop\iot project\skeletonprojectiot\skeletoniot\counterapp\counterapp.uwp\assets\storelogo.scale-200.png
+++StoreLogo.scale-400.png
+i:{219e4bef-e64e-49cc-bc6e-81c283da3889}:c:\users\eladr\desktop\iot project\skeletonprojectiot\skeletoniot\counterapp\counterapp.uwp\assets\storelogo.scale-400.png
+++Wide310x150Logo.scale-100.png
+i:{219e4bef-e64e-49cc-bc6e-81c283da3889}:c:\users\eladr\desktop\iot project\skeletonprojectiot\skeletoniot\counterapp\counterapp.uwp\assets\wide310x150logo.scale-100.png
+++Wide310x150Logo.scale-200.png
+i:{219e4bef-e64e-49cc-bc6e-81c283da3889}:c:\users\eladr\desktop\iot project\skeletonprojectiot\skeletoniot\counterapp\counterapp.uwp\assets\wide310x150logo.scale-200.png
+++Wide310x150Logo.scale-400.png
+i:{219e4bef-e64e-49cc-bc6e-81c283da3889}:c:\users\eladr\desktop\iot project\skeletonprojectiot\skeletoniot\counterapp\counterapp.uwp\assets\wide310x150logo.scale-400.png
+++App.xaml.cs
+i:{219e4bef-e64e-49cc-bc6e-81c283da3889}:c:\users\eladr\desktop\iot project\skeletonprojectiot\skeletoniot\counterapp\counterapp.uwp\app.xaml.cs
+i:{d64a5828-4e1a-419b-957b-9e97c78f5030}:c:\users\eladr\desktop\iot project\skeletonprojectiot\skeletoniot\counterapp\counterapp\app.xaml.cs
+++MainPage.xaml.cs
+i:{219e4bef-e64e-49cc-bc6e-81c283da3889}:c:\users\eladr\desktop\iot project\skeletonprojectiot\skeletoniot\counterapp\counterapp.uwp\mainpage.xaml.cs
+i:{d64a5828-4e1a-419b-957b-9e97c78f5030}:c:\users\eladr\desktop\iot project\skeletonprojectiot\skeletoniot\counterapp\counterapp\mainpage.xaml.cs
+++CounterApp.Android
+i:{00000000-0000-0000-0000-000000000000}:CounterApp.Android
+++MainActivity.cs
+i:{ffebb543-cd38-44c9-8d04-cac63b59f715}:c:\users\eladr\desktop\iot project\skeletonprojectiot\skeletoniot\counterapp\counterapp.android\mainactivity.cs
+++AndroidManifest.xml
+i:{ffebb543-cd38-44c9-8d04-cac63b59f715}:c:\users\eladr\desktop\iot project\skeletonprojectiot\skeletoniot\counterapp\counterapp.android\properties\androidmanifest.xml
+++Microsoft.AspNetCore.SignalR.Client
+i:{ffebb543-cd38-44c9-8d04-cac63b59f715}:
+++Mono.Android
+i:{ffebb543-cd38-44c9-8d04-cac63b59f715}:
+++System.Xml.Linq
+i:{ffebb543-cd38-44c9-8d04-cac63b59f715}:
+++Xamarin.Android.Support.Design
+i:{ffebb543-cd38-44c9-8d04-cac63b59f715}:
+++Xamarin.Android.Support.v4
+i:{ffebb543-cd38-44c9-8d04-cac63b59f715}:
+++Xamarin.Android.Support.v7.AppCompat
+i:{ffebb543-cd38-44c9-8d04-cac63b59f715}:
+++Xamarin.Android.Support.v7.CardView
+i:{ffebb543-cd38-44c9-8d04-cac63b59f715}:
+++Xamarin.Android.Support.v7.MediaRouter
+i:{ffebb543-cd38-44c9-8d04-cac63b59f715}:
+++AboutAssets.txt
+i:{ffebb543-cd38-44c9-8d04-cac63b59f715}:c:\users\eladr\desktop\iot project\skeletonprojectiot\skeletoniot\counterapp\counterapp.android\assets\aboutassets.txt
+++drawable
+i:{ffebb543-cd38-44c9-8d04-cac63b59f715}:c:\users\eladr\desktop\iot project\skeletonprojectiot\skeletoniot\counterapp\counterapp.android\resources\drawable\
+++drawable-hdpi
+i:{ffebb543-cd38-44c9-8d04-cac63b59f715}:c:\users\eladr\desktop\iot project\skeletonprojectiot\skeletoniot\counterapp\counterapp.android\resources\drawable-hdpi\
+++drawable-xhdpi
+i:{ffebb543-cd38-44c9-8d04-cac63b59f715}:c:\users\eladr\desktop\iot project\skeletonprojectiot\skeletoniot\counterapp\counterapp.android\resources\drawable-xhdpi\
+++drawable-xxhdpi
+i:{ffebb543-cd38-44c9-8d04-cac63b59f715}:c:\users\eladr\desktop\iot project\skeletonprojectiot\skeletoniot\counterapp\counterapp.android\resources\drawable-xxhdpi\
+++drawable-xxxhdpi
+i:{ffebb543-cd38-44c9-8d04-cac63b59f715}:c:\users\eladr\desktop\iot project\skeletonprojectiot\skeletoniot\counterapp\counterapp.android\resources\drawable-xxxhdpi\
+++layout
+i:{ffebb543-cd38-44c9-8d04-cac63b59f715}:c:\users\eladr\desktop\iot project\skeletonprojectiot\skeletoniot\counterapp\counterapp.android\resources\layout\
+++mipmap-anydpi-v26
+i:{ffebb543-cd38-44c9-8d04-cac63b59f715}:c:\users\eladr\desktop\iot project\skeletonprojectiot\skeletoniot\counterapp\counterapp.android\resources\mipmap-anydpi-v26\
+++mipmap-hdpi
+i:{ffebb543-cd38-44c9-8d04-cac63b59f715}:c:\users\eladr\desktop\iot project\skeletonprojectiot\skeletoniot\counterapp\counterapp.android\resources\mipmap-hdpi\
+++mipmap-mdpi
+i:{ffebb543-cd38-44c9-8d04-cac63b59f715}:c:\users\eladr\desktop\iot project\skeletonprojectiot\skeletoniot\counterapp\counterapp.android\resources\mipmap-mdpi\
+++mipmap-xhdpi
+i:{ffebb543-cd38-44c9-8d04-cac63b59f715}:c:\users\eladr\desktop\iot project\skeletonprojectiot\skeletoniot\counterapp\counterapp.android\resources\mipmap-xhdpi\
+++mipmap-xxhdpi
+i:{ffebb543-cd38-44c9-8d04-cac63b59f715}:c:\users\eladr\desktop\iot project\skeletonprojectiot\skeletoniot\counterapp\counterapp.android\resources\mipmap-xxhdpi\
+++mipmap-xxxhdpi
+i:{ffebb543-cd38-44c9-8d04-cac63b59f715}:c:\users\eladr\desktop\iot project\skeletonprojectiot\skeletoniot\counterapp\counterapp.android\resources\mipmap-xxxhdpi\
+++values
+i:{ffebb543-cd38-44c9-8d04-cac63b59f715}:c:\users\eladr\desktop\iot project\skeletonprojectiot\skeletoniot\counterapp\counterapp.android\resources\values\
+++AboutResources.txt
+i:{ffebb543-cd38-44c9-8d04-cac63b59f715}:c:\users\eladr\desktop\iot project\skeletonprojectiot\skeletoniot\counterapp\counterapp.android\resources\aboutresources.txt
+++Resource.designer.cs
+i:{ffebb543-cd38-44c9-8d04-cac63b59f715}:c:\users\eladr\desktop\iot project\skeletonprojectiot\skeletoniot\counterapp\counterapp.android\resources\resource.designer.cs
+++Tabbar.axml
+i:{ffebb543-cd38-44c9-8d04-cac63b59f715}:c:\users\eladr\desktop\iot project\skeletonprojectiot\skeletoniot\counterapp\counterapp.android\resources\layout\tabbar.axml
+++Toolbar.axml
+i:{ffebb543-cd38-44c9-8d04-cac63b59f715}:c:\users\eladr\desktop\iot project\skeletonprojectiot\skeletoniot\counterapp\counterapp.android\resources\layout\toolbar.axml
+++icon.xml
+i:{ffebb543-cd38-44c9-8d04-cac63b59f715}:c:\users\eladr\desktop\iot project\skeletonprojectiot\skeletoniot\counterapp\counterapp.android\resources\mipmap-anydpi-v26\icon.xml
+++icon_round.xml
+i:{ffebb543-cd38-44c9-8d04-cac63b59f715}:c:\users\eladr\desktop\iot project\skeletonprojectiot\skeletoniot\counterapp\counterapp.android\resources\mipmap-anydpi-v26\icon_round.xml
+++icon.png
+i:{ffebb543-cd38-44c9-8d04-cac63b59f715}:c:\users\eladr\desktop\iot project\skeletonprojectiot\skeletoniot\counterapp\counterapp.android\resources\mipmap-hdpi\icon.png
+i:{ffebb543-cd38-44c9-8d04-cac63b59f715}:c:\users\eladr\desktop\iot project\skeletonprojectiot\skeletoniot\counterapp\counterapp.android\resources\mipmap-mdpi\icon.png
+i:{ffebb543-cd38-44c9-8d04-cac63b59f715}:c:\users\eladr\desktop\iot project\skeletonprojectiot\skeletoniot\counterapp\counterapp.android\resources\mipmap-xhdpi\icon.png
+i:{ffebb543-cd38-44c9-8d04-cac63b59f715}:c:\users\eladr\desktop\iot project\skeletonprojectiot\skeletoniot\counterapp\counterapp.android\resources\mipmap-xxhdpi\icon.png
+i:{ffebb543-cd38-44c9-8d04-cac63b59f715}:c:\users\eladr\desktop\iot project\skeletonprojectiot\skeletoniot\counterapp\counterapp.android\resources\mipmap-xxxhdpi\icon.png
+++launcher_foreground.png
+i:{ffebb543-cd38-44c9-8d04-cac63b59f715}:c:\users\eladr\desktop\iot project\skeletonprojectiot\skeletoniot\counterapp\counterapp.android\resources\mipmap-hdpi\launcher_foreground.png
+i:{ffebb543-cd38-44c9-8d04-cac63b59f715}:c:\users\eladr\desktop\iot project\skeletonprojectiot\skeletoniot\counterapp\counterapp.android\resources\mipmap-mdpi\launcher_foreground.png
+i:{ffebb543-cd38-44c9-8d04-cac63b59f715}:c:\users\eladr\desktop\iot project\skeletonprojectiot\skeletoniot\counterapp\counterapp.android\resources\mipmap-xhdpi\launcher_foreground.png
+i:{ffebb543-cd38-44c9-8d04-cac63b59f715}:c:\users\eladr\desktop\iot project\skeletonprojectiot\skeletoniot\counterapp\counterapp.android\resources\mipmap-xxhdpi\launcher_foreground.png
+i:{ffebb543-cd38-44c9-8d04-cac63b59f715}:c:\users\eladr\desktop\iot project\skeletonprojectiot\skeletoniot\counterapp\counterapp.android\resources\mipmap-xxxhdpi\launcher_foreground.png
+++colors.xml
+i:{ffebb543-cd38-44c9-8d04-cac63b59f715}:c:\users\eladr\desktop\iot project\skeletonprojectiot\skeletoniot\counterapp\counterapp.android\resources\values\colors.xml
+++styles.xml
+i:{ffebb543-cd38-44c9-8d04-cac63b59f715}:c:\users\eladr\desktop\iot project\skeletonprojectiot\skeletoniot\counterapp\counterapp.android\resources\values\styles.xml
+++Dependencies
+i:{d64a5828-4e1a-419b-957b-9e97c78f5030}:>90
+++MainViewModel.cs
+i:{d64a5828-4e1a-419b-957b-9e97c78f5030}:c:\users\eladr\desktop\iot project\skeletonprojectiot\skeletoniot\counterapp\counterapp\mainviewmodel.cs
+++Packages
+i:{d64a5828-4e1a-419b-957b-9e97c78f5030}:packages
+++NETStandard.Library (2.0.3)
+i:{d64a5828-4e1a-419b-957b-9e97c78f5030}:>92
+++Xamarin.Forms (4.5.0.356)
+i:{d64a5828-4e1a-419b-957b-9e97c78f5030}:>93
+++Microsoft.AspNetCore.SignalR.Client (6.0.4)
+i:{d64a5828-4e1a-419b-957b-9e97c78f5030}:>94
+++Analyzers
+i:{d64a5828-4e1a-419b-957b-9e97c78f5030}:analyzers
+++Microsoft.Extensions.Logging.Generators
+i:{d64a5828-4e1a-419b-957b-9e97c78f5030}:c:\users\eladr\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.1\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+++System.Text.Json.SourceGeneration
+i:{d64a5828-4e1a-419b-957b-9e97c78f5030}:c:\users\eladr\.nuget\packages\system.text.json\6.0.3\analyzers\dotnet\roslyn4.0\cs\system.text.json.sourcegeneration.dll

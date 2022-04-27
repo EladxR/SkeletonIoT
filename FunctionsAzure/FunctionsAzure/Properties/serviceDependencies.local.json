@@ -3,6 +3,15 @@
     "storage1": {
       "type": "storage.emulator",
       "connectionId": "AzureWebJobsStorage"
+    },
+    "secrets1": {
+      "type": "secrets.user"
+    },
+    "signalr1": {
+      "secretStore": "LocalSecretsFile",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.SignalRService/SignalR/ourSkeletonSignalR",
+      "type": "signalr.function",
+      "connectionId": "AzureSignalRConnectionString"
     }
   }
 }

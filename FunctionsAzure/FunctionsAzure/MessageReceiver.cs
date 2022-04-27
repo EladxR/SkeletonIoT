@@ -22,12 +22,13 @@ namespace FunctionsAzure
     ILogger log)
         {
 
-            log.LogInformation("you have clicked 1");
             string responseString = await client.GetStringAsync("https://eladskeletonfunctionapp.azurewebsites.net/api/GetCounter?code=b0Z/mtOklciCPCer4S5KjrSPxYdgvzyxhASDiZznehw4Gcu0SddLjQ==");
             int newValue = Int32.Parse(responseString) + 1; // updating the value
             var response = await client.PostAsync("https://eladskeletonfunctionapp.azurewebsites.net/api/UpdateCounter?value=" + newValue, null);
             var responseStringUpdate = await response.Content.ReadAsStringAsync();
             log.LogInformation(responseStringUpdate);
+
+
 
 
             // var exceptions = new List<Exception>();

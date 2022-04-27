@@ -10,13 +10,16 @@ using Newtonsoft.Json;
 using Azure.Data.Tables;
 using Azure.Data.Tables.Models;
 using Azure;
+using System.Net.Http;
+
 
 
 namespace FunctionsAzure
 {
     public static class UpdateCounter
     {
-    
+        private static readonly HttpClient client = new HttpClient();
+
         [FunctionName("UpdateCounter")]
         public static async Task<IActionResult> Run(
             [HttpTrigger(AuthorizationLevel.Anonymous, "get","post", Route = null)] HttpRequest req, ILogger log)
@@ -43,8 +46,13 @@ namespace FunctionsAzure
 
             await tableClient.UpdateEntityAsync(tableEntity, Azure.ETag.All ,TableUpdateMode.Replace);
 
-            
-             return new OkObjectResult($"Hello, {value}");
+            //trigger broadcast signalR
+            var response = await client.PostAsync("https://eladskeletonfunctionapp.azurewebsites.net/api/broadcast?value=" + value, null);
+            var responseStringUpdate = await response.Content.ReadAsStringAsync();
+            log.LogInformation(responseStringUpdate);
+
+
+            return new OkObjectResult($"Hello, {value}");
         }
 
        

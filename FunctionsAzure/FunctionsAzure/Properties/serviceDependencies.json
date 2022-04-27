@@ -6,6 +6,13 @@
     "storage1": {
       "type": "storage",
       "connectionId": "AzureWebJobsStorage"
+    },
+    "secrets1": {
+      "type": "secrets"
+    },
+    "signalr1": {
+      "type": "signalr",
+      "connectionId": "AzureSignalRConnectionString"
     }
   }
 }

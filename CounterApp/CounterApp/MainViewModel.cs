@@ -4,6 +4,7 @@ using System.Runtime.CompilerServices;
 using System.Windows.Input;
 using Xamarin.Forms;
 
+
 namespace CounterApp
 {
     public class MainViewModel : INotifyPropertyChanged
