@@ -47,9 +47,9 @@ namespace FunctionsAzure
             await tableClient.UpdateEntityAsync(tableEntity, Azure.ETag.All ,TableUpdateMode.Replace);
 
             //trigger broadcast signalR
-            var response = await client.PostAsync("https://eladskeletonfunctionapp.azurewebsites.net/api/broadcast?value=" + value, null);
+            /*var response = await client.PostAsync("https://eladskeletonfunctionapp.azurewebsites.net/api/broadcast?value=" + value, null);
             var responseStringUpdate = await response.Content.ReadAsStringAsync();
-            log.LogInformation(responseStringUpdate);
+            log.LogInformation(responseStringUpdate);*/
 
 
             return new OkObjectResult($"Hello, {value}");

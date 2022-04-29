@@ -11,36 +11,41 @@ namespace CounterApp
 {
     public partial class MainPage : ContentPage
     {
-        HubConnection connection;
+        HubConnection hubConnection;
 
         public MainPage()
         {
             InitializeComponent();
+            SyncCounters();
+        }
 
-            // establish a connection
-            connection = new HubConnectionBuilder()
-                .WithUrl("http://localhost:53353/ChatHub")
-                .Build();
 
-            connection.On<string>("Send", (message) =>
+
+        async private void SyncCounters()
+        {
+            SignalRSetup();
+            await SignalRConnect();
+        }
+
+        private void SignalRSetup()
+        {
+            hubConnection = new HubConnectionBuilder().WithUrl($"https://functionapp220220419172755.azurewebsites.net/api/").Build();
+            hubConnection.On<string>("newMessage", (message) =>
             {
-                AppendMessage(message);
+                var receivedMessage = $"{message}";
+                label1.Text = receivedMessage;
+                //label2.Text = "Current counter 2 is: 0";
             });
 
-
-            connection.Closed += async (error) =>
-            {
-                await Task.Delay(new Random().Next(0, 5) * 1000);
-                await connection.StartAsync();
-            };
-
-            
-
         }
 
-        public async Task GetCounterAsync()
+        async Task SignalRConnect()
         {
-            await connection.StartAsync();
+            
+            await hubConnection.StartAsync();
+            
+            
         }
+
     }
 }

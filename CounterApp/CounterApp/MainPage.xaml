@@ -12,7 +12,7 @@
 
         <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
             <Label Text="Counter 1: " FontSize="Medium" TextColor="DarkGray" VerticalOptions="Center"/>
-            <Label Text="{Binding Counter1}" FontSize="Medium" FontAttributes="Bold" VerticalOptions="Center" WidthRequest="50" HorizontalTextAlignment="Center"/>
+            <Label x:Name="label1" Text="{Binding Counter1}" FontSize="Medium" FontAttributes="Bold" VerticalOptions="Center" WidthRequest="50" HorizontalTextAlignment="Center"/>
             <Button Text="Increment" BackgroundColor="Blue" TextColor="White" Command="{Binding IncrementCounterCommand}" CommandParameter="0" VerticalOptions="Center" Padding="0"/>
         </StackLayout>
 

@@ -3,6 +3,7 @@ using System.ComponentModel;
 using System.Runtime.CompilerServices;
 using System.Windows.Input;
 using Xamarin.Forms;
+using System.Windows;
 
 
 namespace CounterApp
@@ -54,5 +55,7 @@ namespace CounterApp
             OnPropertyChanged(propertyName);
             return true;
         }
+
+       
     }
 }

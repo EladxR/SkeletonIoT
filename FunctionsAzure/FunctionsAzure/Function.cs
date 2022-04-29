@@ -40,10 +40,31 @@ namespace CSharp
         }
 
         [FunctionName("broadcast")]
-        public static async Task<IActionResult> Broadcast([HttpTrigger(AuthorizationLevel.Anonymous, "get", "post", Route = null)] HttpRequest req,
+        public static async Task Broadcast([TimerTrigger("*/1 * * * * *")] TimerInfo myTimer,
         [SignalR(HubName = "serverless")] IAsyncCollector<SignalRMessage> signalRMessages, ILogger log)
         {
-            string value = req.Query["value"];
+            var request = new HttpRequestMessage(HttpMethod.Get, "https://eladskeletonfunctionapp.azurewebsites.net/api/GetCounter?code=b0Z/mtOklciCPCer4S5KjrSPxYdgvzyxhASDiZznehw4Gcu0SddLjQ==");
+            request.Headers.UserAgent.ParseAdd("Serverless");
+            request.Headers.Add("If-None-Match", Etag);
+            var response = await httpClient.SendAsync(request);
+            if (response.Headers.Contains("Etag"))
+            {
+                Etag = response.Headers.GetValues("Etag").First();
+            }
+            if (response.StatusCode == System.Net.HttpStatusCode.OK)
+            {
+                counter = JsonConvert.DeserializeObject<int>(await response.Content.ReadAsStringAsync());
+            }
+
+            await signalRMessages.AddAsync(
+                new SignalRMessage
+                {
+                    Target = "newMessage",
+                    Arguments = new[] { $"{counter}" }
+                });
+
+
+            /*string value = req.Query["value"];
             if (value == null)
                 return new BadRequestResult();
             log.LogInformation("value is "+value);
@@ -59,7 +80,7 @@ namespace CSharp
                 });
             log.LogInformation("succefully got to the end of broadcast");
 
-            return new OkObjectResult($"Hello, {value}");
+            return new OkObjectResult($"Hello, {value}");*/
 
         }
 
